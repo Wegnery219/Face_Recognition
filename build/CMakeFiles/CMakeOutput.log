@@ -1,0 +1,539 @@
+The system is: Windows - 10.0.17134 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) ��������汾 14.0.25420.1
+��Ȩ����(C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2018/6/25 10:14:16��
+�ڵ� 1 �ϵ���Ŀ��E:\shixun\frcode\face\build\CMakeFiles\3.11.4\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+  ���ڴ���Ŀ¼��Debug\CompilerIdC.tlog\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdC.tlog\unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> E:\shixun\frcode\face\build\CMakeFiles\3.11.4\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdC.tlog\unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��E:\shixun\frcode\face\build\CMakeFiles\3.11.4\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:04.38
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "E:/shixun/frcode/face/build/CMakeFiles/3.11.4/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) ��������汾 14.0.25420.1
+��Ȩ����(C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2018/6/25 10:14:22��
+�ڵ� 1 �ϵ���Ŀ��E:\shixun\frcode\face\build\CMakeFiles\3.11.4\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+  ���ڴ���Ŀ¼��Debug\CompilerIdCXX.tlog\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdCXX.tlog\unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> E:\shixun\frcode\face\build\CMakeFiles\3.11.4\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdCXX.tlog\unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��E:\shixun\frcode\face\build\CMakeFiles\3.11.4\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:02.79
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "E:/shixun/frcode/face/build/CMakeFiles/3.11.4/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_100b5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/25 10:14:25。
+节点 1 上的项目“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\cmTC_100b5.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_100b5.dir\Debug\”。
+  正在创建目录“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_100b5.dir\Debug\cmTC_100b5.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_100b5.dir\Debug\cmTC_100b5.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_100b5.dir\Debug\\" /Fd"cmTC_100b5.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_100b5.dir\Debug\\" /Fd"cmTC_100b5.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\cmTC_100b5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_100b5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_100b5.lib" /MACHINE:X64  /machine:x64 cmTC_100b5.dir\Debug\testCCompiler.obj
+  cmTC_100b5.vcxproj -> E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\cmTC_100b5.exe
+  cmTC_100b5.vcxproj -> E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_100b5.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_100b5.dir\Debug\cmTC_100b5.tlog\unsuccessfulbuild”。
+  正在对“cmTC_100b5.dir\Debug\cmTC_100b5.tlog\cmTC_100b5.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\cmTC_100b5.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:02.55
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f789a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/25 10:14:29。
+节点 1 上的项目“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\cmTC_f789a.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_f789a.dir\Debug\”。
+  正在创建目录“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_f789a.dir\Debug\cmTC_f789a.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_f789a.dir\Debug\cmTC_f789a.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f789a.dir\Debug\\" /Fd"cmTC_f789a.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f789a.dir\Debug\\" /Fd"cmTC_f789a.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\cmTC_f789a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_f789a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_f789a.lib" /MACHINE:X64  /machine:x64 cmTC_f789a.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_f789a.vcxproj -> E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\cmTC_f789a.exe
+  cmTC_f789a.vcxproj -> E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_f789a.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_f789a.dir\Debug\cmTC_f789a.tlog\unsuccessfulbuild”。
+  正在对“cmTC_f789a.dir\Debug\cmTC_f789a.tlog\cmTC_f789a.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\cmTC_f789a.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:02.51
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3e33f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/25 10:14:32。
+节点 1 上的项目“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\cmTC_3e33f.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_3e33f.dir\Debug\”。
+  正在创建目录“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_3e33f.dir\Debug\cmTC_3e33f.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_3e33f.dir\Debug\cmTC_3e33f.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3e33f.dir\Debug\\" /Fd"cmTC_3e33f.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3e33f.dir\Debug\\" /Fd"cmTC_3e33f.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\cmTC_3e33f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_3e33f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_3e33f.lib" /MACHINE:X64  /machine:x64 cmTC_3e33f.dir\Debug\testCXXCompiler.obj
+  cmTC_3e33f.vcxproj -> E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\cmTC_3e33f.exe
+  cmTC_3e33f.vcxproj -> E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_3e33f.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_3e33f.dir\Debug\cmTC_3e33f.tlog\unsuccessfulbuild”。
+  正在对“cmTC_3e33f.dir\Debug\cmTC_3e33f.tlog\cmTC_3e33f.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\cmTC_3e33f.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:02.37
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_efbe6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/25 10:14:35。
+节点 1 上的项目“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\cmTC_efbe6.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_efbe6.dir\Debug\”。
+  正在创建目录“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_efbe6.dir\Debug\cmTC_efbe6.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_efbe6.dir\Debug\cmTC_efbe6.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_efbe6.dir\Debug\\" /Fd"cmTC_efbe6.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_efbe6.dir\Debug\\" /Fd"cmTC_efbe6.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\cmTC_efbe6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_efbe6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_efbe6.lib" /MACHINE:X64  /machine:x64 cmTC_efbe6.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_efbe6.vcxproj -> E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\cmTC_efbe6.exe
+  cmTC_efbe6.vcxproj -> E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_efbe6.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_efbe6.dir\Debug\cmTC_efbe6.tlog\unsuccessfulbuild”。
+  正在对“cmTC_efbe6.dir\Debug\cmTC_efbe6.tlog\cmTC_efbe6.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\cmTC_efbe6.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:02.52
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_8bea1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/25 10:14:38。
+节点 1 上的项目“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\cmTC_8bea1.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_8bea1.dir\Debug\”。
+  正在创建目录“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_8bea1.dir\Debug\cmTC_8bea1.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_8bea1.dir\Debug\cmTC_8bea1.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8bea1.dir\Debug\\" /Fd"cmTC_8bea1.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue E:\shixun\frcode\face\build\CMakeFiles\feature_tests.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8bea1.dir\Debug\\" /Fd"cmTC_8bea1.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue E:\shixun\frcode\face\build\CMakeFiles\feature_tests.cxx
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\cmTC_8bea1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_8bea1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_8bea1.lib" /MACHINE:X64  /machine:x64 cmTC_8bea1.dir\Debug\feature_tests.obj
+  cmTC_8bea1.vcxproj -> E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\cmTC_8bea1.exe
+  cmTC_8bea1.vcxproj -> E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_8bea1.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_8bea1.dir\Debug\cmTC_8bea1.tlog\unsuccessfulbuild”。
+  正在对“cmTC_8bea1.dir\Debug\cmTC_8bea1.tlog\cmTC_8bea1.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\cmTC_8bea1.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:02.43
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3f37b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/25 10:18:37。
+节点 1 上的项目“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\cmTC_3f37b.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_3f37b.dir\Debug\”。
+  正在创建目录“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_3f37b.dir\Debug\cmTC_3f37b.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_3f37b.dir\Debug\cmTC_3f37b.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3f37b.dir\Debug\\" /Fd"cmTC_3f37b.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3f37b.dir\Debug\\" /Fd"cmTC_3f37b.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\cmTC_3f37b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_3f37b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_3f37b.lib" /MACHINE:X64  /machine:x64 cmTC_3f37b.dir\Debug\CheckIncludeFile.obj
+  cmTC_3f37b.vcxproj -> E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\cmTC_3f37b.exe
+  cmTC_3f37b.vcxproj -> E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_3f37b.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_3f37b.dir\Debug\cmTC_3f37b.tlog\unsuccessfulbuild”。
+  正在对“cmTC_3f37b.dir\Debug\cmTC_3f37b.tlog\cmTC_3f37b.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\cmTC_3f37b.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:02.38
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_5644c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/25 10:18:40。
+节点 1 上的项目“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\cmTC_5644c.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_5644c.dir\Debug\”。
+  正在创建目录“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_5644c.dir\Debug\cmTC_5644c.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_5644c.dir\Debug\cmTC_5644c.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5644c.dir\Debug\\" /Fd"cmTC_5644c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5644c.dir\Debug\\" /Fd"cmTC_5644c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\cmTC_5644c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_5644c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_5644c.lib" /MACHINE:X64  /machine:x64 cmTC_5644c.dir\Debug\CheckIncludeFile.obj
+  cmTC_5644c.vcxproj -> E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\cmTC_5644c.exe
+  cmTC_5644c.vcxproj -> E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_5644c.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_5644c.dir\Debug\cmTC_5644c.tlog\unsuccessfulbuild”。
+  正在对“cmTC_5644c.dir\Debug\cmTC_5644c.tlog\cmTC_5644c.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\cmTC_5644c.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:02.45
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_5479e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/25 10:18:43。
+节点 1 上的项目“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\cmTC_5479e.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_5479e.dir\Debug\”。
+  正在创建目录“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_5479e.dir\Debug\cmTC_5479e.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_5479e.dir\Debug\cmTC_5479e.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5479e.dir\Debug\\" /Fd"cmTC_5479e.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5479e.dir\Debug\\" /Fd"cmTC_5479e.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\cmTC_5479e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_5479e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_5479e.lib" /MACHINE:X64  /machine:x64 cmTC_5479e.dir\Debug\CheckIncludeFile.obj
+  cmTC_5479e.vcxproj -> E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\cmTC_5479e.exe
+  cmTC_5479e.vcxproj -> E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_5479e.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_5479e.dir\Debug\cmTC_5479e.tlog\unsuccessfulbuild”。
+  正在对“cmTC_5479e.dir\Debug\cmTC_5479e.tlog\cmTC_5479e.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\cmTC_5479e.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:02.53
+
+
+Determining size of void* passed with the following output:
+Change Dir: E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d1147.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/25 10:18:46。
+节点 1 上的项目“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\cmTC_d1147.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_d1147.dir\Debug\”。
+  正在创建目录“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_d1147.dir\Debug\cmTC_d1147.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_d1147.dir\Debug\cmTC_d1147.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d1147.dir\Debug\\" /Fd"cmTC_d1147.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue E:\shixun\frcode\face\build\CMakeFiles\CheckTypeSize\SIZE_OF_VOID_PTR.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d1147.dir\Debug\\" /Fd"cmTC_d1147.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue E:\shixun\frcode\face\build\CMakeFiles\CheckTypeSize\SIZE_OF_VOID_PTR.c
+  
+  SIZE_OF_VOID_PTR.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\cmTC_d1147.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_d1147.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_d1147.lib" /MACHINE:X64  /machine:x64 cmTC_d1147.dir\Debug\SIZE_OF_VOID_PTR.obj
+  cmTC_d1147.vcxproj -> E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\cmTC_d1147.exe
+  cmTC_d1147.vcxproj -> E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_d1147.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_d1147.dir\Debug\cmTC_d1147.tlog\unsuccessfulbuild”。
+  正在对“cmTC_d1147.dir\Debug\cmTC_d1147.tlog\cmTC_d1147.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\cmTC_d1147.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:02.41
+
+
+Determining if the function png_create_read_struct exists passed with the following output:
+Change Dir: E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_455b2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/6/25 10:18:50。
+节点 1 上的项目“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\cmTC_455b2.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_455b2.dir\Debug\”。
+  正在创建目录“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_455b2.dir\Debug\cmTC_455b2.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_455b2.dir\Debug\cmTC_455b2.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=png_create_read_struct /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_455b2.dir\Debug\\" /Fd"cmTC_455b2.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=png_create_read_struct /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_455b2.dir\Debug\\" /Fd"cmTC_455b2.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\cmTC_455b2.exe" /INCREMENTAL /NOLOGO D:\anaconda2\Library\lib\libpng.lib D:\anaconda2\Library\lib\z.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_455b2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_455b2.lib" /MACHINE:X64  /machine:x64 cmTC_455b2.dir\Debug\CheckFunctionExists.obj
+  cmTC_455b2.vcxproj -> E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\Debug\cmTC_455b2.exe
+  cmTC_455b2.vcxproj -> E:/shixun/frcode/face/build/CMakeFiles/CMakeTmp/Debug/cmTC_455b2.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_455b2.dir\Debug\cmTC_455b2.tlog\unsuccessfulbuild”。
+  正在对“cmTC_455b2.dir\Debug\cmTC_455b2.tlog\cmTC_455b2.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\shixun\frcode\face\build\CMakeFiles\CMakeTmp\cmTC_455b2.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:02.43
+
+

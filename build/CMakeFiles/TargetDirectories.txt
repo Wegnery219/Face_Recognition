@@ -1,0 +1,5 @@
+E:/shixun/frcode/face/build/CMakeFiles/Test4.dir
+E:/shixun/frcode/face/build/CMakeFiles/ALL_BUILD.dir
+E:/shixun/frcode/face/build/CMakeFiles/ZERO_CHECK.dir
+E:/shixun/frcode/face/build/dlib_build/CMakeFiles/dlib.dir
+E:/shixun/frcode/face/build/dlib_build/CMakeFiles/ALL_BUILD.dir

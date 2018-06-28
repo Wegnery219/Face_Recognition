@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{517D788A-E307-32A0-A3D9-2178A2E9D5EF}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>dlib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\shixun\frcode\face\build\dlib_build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">dlib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">dlib19.13.0_debug_64bit_msvc1900</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\shixun\frcode\face\build\dlib_build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">dlib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">dlib19.13.0_release_64bit_msvc1900</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\shixun\frcode\face\build\dlib_build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">dlib.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">dlib19.13.0_minsizerel_64bit_msvc1900</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\shixun\frcode\face\build\dlib_build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">dlib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">dlib19.13.0_relwithdebinfo_64bit_msvc1900</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\anaconda2\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DLIB_HAVE_SSE2;DLIB_JPEG_SUPPORT;DLIB_PNG_SUPPORT;DLIB_JPEG_STATIC;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;DLIB_HAVE_SSE2;DLIB_JPEG_SUPPORT;DLIB_PNG_SUPPORT;DLIB_JPEG_STATIC;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\anaconda2\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\anaconda2\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\anaconda2\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLIB_HAVE_SSE2;DLIB_JPEG_SUPPORT;DLIB_PNG_SUPPORT;DLIB_JPEG_STATIC;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLIB_HAVE_SSE2;DLIB_JPEG_SUPPORT;DLIB_PNG_SUPPORT;DLIB_JPEG_STATIC;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\anaconda2\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\anaconda2\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\anaconda2\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLIB_HAVE_SSE2;DLIB_JPEG_SUPPORT;DLIB_PNG_SUPPORT;DLIB_JPEG_STATIC;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLIB_HAVE_SSE2;DLIB_JPEG_SUPPORT;DLIB_PNG_SUPPORT;DLIB_JPEG_STATIC;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\anaconda2\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\anaconda2\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\anaconda2\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLIB_HAVE_SSE2;DLIB_JPEG_SUPPORT;DLIB_PNG_SUPPORT;DLIB_JPEG_STATIC;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLIB_HAVE_SSE2;DLIB_JPEG_SUPPORT;DLIB_PNG_SUPPORT;DLIB_JPEG_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\anaconda2\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\anaconda2\Library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\shixun\face_recognition\dlib-19.13\dlib\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/shixun/face_recognition/dlib-19.13/dlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\shixun\face_recognition\cmake-3.11.4-win64-x64\bin\cmake.exe -HE:/shixun/frcode/face -BE:/shixun/frcode/face/build --check-stamp-file E:/shixun/frcode/face/build/dlib_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/shixun/face_recognition/dlib-19.13/dlib/CMakeLists.txt;E:\shixun\face_recognition\dlib-19.13\dlib\CMakeLists.txt;E:\shixun\face_recognition\dlib-19.13\dlib\cmake_utils\set_compiler_specific_options.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CheckTypeSize.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CheckIncludeFile.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CheckIncludeFileCXX.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\GNUInstallDirs.cmake;E:\shixun\face_recognition\dlib-19.13\dlib\cmake_utils\release_build_by_default;E:\shixun\face_recognition\dlib-19.13\dlib\cmake_utils\use_cpp_11.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CheckFunctionExists.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPNG.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindZLIB.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\SelectLibraryConfigurations.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPackageMessage.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\SelectLibraryConfigurations.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPackageMessage.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindJPEG.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPackageMessage.cmake;E:\shixun\face_recognition\dlib-19.13\dlib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\shixun\frcode\face\build\dlib_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/shixun/face_recognition/dlib-19.13/dlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\shixun\face_recognition\cmake-3.11.4-win64-x64\bin\cmake.exe -HE:/shixun/frcode/face -BE:/shixun/frcode/face/build --check-stamp-file E:/shixun/frcode/face/build/dlib_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/shixun/face_recognition/dlib-19.13/dlib/CMakeLists.txt;E:\shixun\face_recognition\dlib-19.13\dlib\CMakeLists.txt;E:\shixun\face_recognition\dlib-19.13\dlib\cmake_utils\set_compiler_specific_options.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CheckTypeSize.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CheckIncludeFile.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CheckIncludeFileCXX.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\GNUInstallDirs.cmake;E:\shixun\face_recognition\dlib-19.13\dlib\cmake_utils\release_build_by_default;E:\shixun\face_recognition\dlib-19.13\dlib\cmake_utils\use_cpp_11.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CheckFunctionExists.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPNG.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindZLIB.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\SelectLibraryConfigurations.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPackageMessage.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\SelectLibraryConfigurations.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPackageMessage.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindJPEG.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPackageMessage.cmake;E:\shixun\face_recognition\dlib-19.13\dlib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\shixun\frcode\face\build\dlib_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/shixun/face_recognition/dlib-19.13/dlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\shixun\face_recognition\cmake-3.11.4-win64-x64\bin\cmake.exe -HE:/shixun/frcode/face -BE:/shixun/frcode/face/build --check-stamp-file E:/shixun/frcode/face/build/dlib_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/shixun/face_recognition/dlib-19.13/dlib/CMakeLists.txt;E:\shixun\face_recognition\dlib-19.13\dlib\CMakeLists.txt;E:\shixun\face_recognition\dlib-19.13\dlib\cmake_utils\set_compiler_specific_options.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CheckTypeSize.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CheckIncludeFile.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CheckIncludeFileCXX.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\GNUInstallDirs.cmake;E:\shixun\face_recognition\dlib-19.13\dlib\cmake_utils\release_build_by_default;E:\shixun\face_recognition\dlib-19.13\dlib\cmake_utils\use_cpp_11.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CheckFunctionExists.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPNG.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindZLIB.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\SelectLibraryConfigurations.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPackageMessage.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\SelectLibraryConfigurations.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPackageMessage.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindJPEG.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPackageMessage.cmake;E:\shixun\face_recognition\dlib-19.13\dlib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\shixun\frcode\face\build\dlib_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/shixun/face_recognition/dlib-19.13/dlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\shixun\face_recognition\cmake-3.11.4-win64-x64\bin\cmake.exe -HE:/shixun/frcode/face -BE:/shixun/frcode/face/build --check-stamp-file E:/shixun/frcode/face/build/dlib_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/shixun/face_recognition/dlib-19.13/dlib/CMakeLists.txt;E:\shixun\face_recognition\dlib-19.13\dlib\CMakeLists.txt;E:\shixun\face_recognition\dlib-19.13\dlib\cmake_utils\set_compiler_specific_options.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CheckTypeSize.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CheckIncludeFile.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CheckIncludeFileCXX.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\GNUInstallDirs.cmake;E:\shixun\face_recognition\dlib-19.13\dlib\cmake_utils\release_build_by_default;E:\shixun\face_recognition\dlib-19.13\dlib\cmake_utils\use_cpp_11.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CheckFunctionExists.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPNG.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindZLIB.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\SelectLibraryConfigurations.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPackageMessage.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\SelectLibraryConfigurations.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPackageMessage.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindJPEG.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\FindPackageMessage.cmake;E:\shixun\face_recognition\dlib-19.13\dlib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\shixun\frcode\face\build\dlib_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\base64\base64_kernel_1.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\bigint\bigint_kernel_1.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\bigint\bigint_kernel_2.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\bit_stream\bit_stream_kernel_1.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\entropy_decoder\entropy_decoder_kernel_1.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\entropy_decoder\entropy_decoder_kernel_2.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\entropy_encoder\entropy_encoder_kernel_1.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\entropy_encoder\entropy_encoder_kernel_2.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\md5\md5_kernel_1.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\tokenizer\tokenizer_kernel_1.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\unicode\unicode.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\data_io\image_dataset_metadata.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\data_io\mnist.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\global_optimization\global_function_search.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\filtering\kalman_filter.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\test_for_odr_violations.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\sockets\sockets_kernel_1.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\bsp\bsp.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\dir_nav\dir_nav_kernel_1.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\dir_nav\dir_nav_kernel_2.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\dir_nav\dir_nav_extensions.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\linker\linker_kernel_1.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\logger\extra_logger_headers.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\logger\logger_kernel_1.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\logger\logger_config_file.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\misc_api\misc_api_kernel_1.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\misc_api\misc_api_kernel_2.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\sockets\sockets_extensions.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\sockets\sockets_kernel_2.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\sockstreambuf\sockstreambuf.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\sockstreambuf\sockstreambuf_unbuffered.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\server\server_kernel.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\server\server_iostream.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\server\server_http.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\threads\multithreaded_object_extension.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\threads\threaded_object_extension.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\threads\threads_kernel_1.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\threads\threads_kernel_2.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\threads\threads_kernel_shared.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\threads\thread_pool_extension.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\threads\async.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\timer\timer.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\stack_trace.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\cuda\cpu_dlib.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\cuda\tensor_tools.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\gui_widgets\fonts.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\gui_widgets\widgets.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\gui_widgets\drawable.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\gui_widgets\canvas_drawing.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\gui_widgets\style.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\gui_widgets\base_widgets.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\gui_core\gui_core_kernel_1.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\gui_core\gui_core_kernel_2.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\image_loader\png_loader.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\image_saver\save_png.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jcomapi.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jdapimin.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jdapistd.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jdatasrc.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jdcoefct.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jdcolor.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jddctmgr.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jdhuff.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jdinput.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jdmainct.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jdmarker.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jdmaster.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jdmerge.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jdphuff.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jdpostct.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jdsample.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jerror.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jidctflt.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jidctfst.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jidctint.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jidctred.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jmemmgr.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jmemnobs.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jquant1.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jquant2.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jutils.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jcapimin.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jdatadst.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jcparam.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jcapistd.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jcmarker.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jcinit.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jcmaster.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jcdctmgr.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jccoefct.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jccolor.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jchuff.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jcmainct.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jcphuff.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jcprepct.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jcsample.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jfdctint.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jfdctflt.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\external\libjpeg\jfdctfst.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\image_loader\jpeg_loader.cpp" />
+    <ClCompile Include="E:\shixun\face_recognition\dlib-19.13\dlib\image_saver\save_jpeg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\shixun\frcode\face\build\ZERO_CHECK.vcxproj">
+      <Project>{3A3B959B-5C1A-3064-812E-AC55EF1783FE}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,21 @@
+# CMake generation dependency list for this directory.
+E:/shixun/face_recognition/dlib-19.13/dlib/CMakeLists.txt
+E:/shixun/face_recognition/dlib-19.13/dlib/cmake_utils/set_compiler_specific_options.cmake
+E:/shixun/face_recognition/cmake-3.11.4-win64-x64/share/cmake-3.11/Modules/CheckTypeSize.cmake
+E:/shixun/face_recognition/cmake-3.11.4-win64-x64/share/cmake-3.11/Modules/CheckIncludeFile.cmake
+E:/shixun/face_recognition/cmake-3.11.4-win64-x64/share/cmake-3.11/Modules/CheckIncludeFileCXX.cmake
+E:/shixun/face_recognition/cmake-3.11.4-win64-x64/share/cmake-3.11/Modules/GNUInstallDirs.cmake
+E:/shixun/face_recognition/dlib-19.13/dlib/cmake_utils/release_build_by_default
+E:/shixun/face_recognition/dlib-19.13/dlib/cmake_utils/use_cpp_11.cmake
+E:/shixun/face_recognition/cmake-3.11.4-win64-x64/share/cmake-3.11/Modules/CheckFunctionExists.cmake
+E:/shixun/face_recognition/cmake-3.11.4-win64-x64/share/cmake-3.11/Modules/FindPNG.cmake
+E:/shixun/face_recognition/cmake-3.11.4-win64-x64/share/cmake-3.11/Modules/FindZLIB.cmake
+E:/shixun/face_recognition/cmake-3.11.4-win64-x64/share/cmake-3.11/Modules/SelectLibraryConfigurations.cmake
+E:/shixun/face_recognition/cmake-3.11.4-win64-x64/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+E:/shixun/face_recognition/cmake-3.11.4-win64-x64/share/cmake-3.11/Modules/FindPackageMessage.cmake
+E:/shixun/face_recognition/cmake-3.11.4-win64-x64/share/cmake-3.11/Modules/SelectLibraryConfigurations.cmake
+E:/shixun/face_recognition/cmake-3.11.4-win64-x64/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+E:/shixun/face_recognition/cmake-3.11.4-win64-x64/share/cmake-3.11/Modules/FindPackageMessage.cmake
+E:/shixun/face_recognition/cmake-3.11.4-win64-x64/share/cmake-3.11/Modules/FindJPEG.cmake
+E:/shixun/face_recognition/cmake-3.11.4-win64-x64/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+E:/shixun/face_recognition/cmake-3.11.4-win64-x64/share/cmake-3.11/Modules/FindPackageMessage.cmake

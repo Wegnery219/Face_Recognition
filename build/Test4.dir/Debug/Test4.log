@@ -1,0 +1,9 @@
+﻿  face.cpp
+e:\shixun\face_recognition\dlib-19.13\dlib\image_transforms/morphological_operations.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\opencv3.1.0\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\opencv3.1.0\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\opencv3.1.0\opencv\build\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\opencv3.1.0\opencv\build\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+e:\shixun\frcode\face\build\face.cpp(199): warning C4715: 'match': not all control paths return a value
+  Test4.vcxproj -> E:\shixun\frcode\face\build\Debug\Test4.exe
+  Test4.vcxproj -> E:/shixun/frcode/face/build/Debug/Test4.pdb (Full PDB)

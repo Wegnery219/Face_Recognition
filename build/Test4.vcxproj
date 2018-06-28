@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8E55CDC1-9411-30D3-BA00-7383E6CFB1CD}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Test4</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\shixun\frcode\face\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Test4.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Test4</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\shixun\frcode\face\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Test4.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Test4</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\shixun\frcode\face\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Test4.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Test4</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\shixun\frcode\face\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Test4.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Test4</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\opencv3.1.0\opencv\build\include;D:\opencv3.1.0\opencv\build\include\opencv;E:\shixun\face_recognition\dlib-19.13\dlib\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DLIB_HAVE_SSE2;DLIB_JPEG_SUPPORT;DLIB_PNG_SUPPORT;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;DLIB_HAVE_SSE2;DLIB_JPEG_SUPPORT;DLIB_PNG_SUPPORT;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\opencv3.1.0\opencv\build\include;D:\opencv3.1.0\opencv\build\include\opencv;E:\shixun\face_recognition\dlib-19.13\dlib\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\opencv3.1.0\opencv\build\include;D:\opencv3.1.0\opencv\build\include\opencv;E:\shixun\face_recognition\dlib-19.13\dlib\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>dlib_build\Debug\dlib19.13.0_debug_64bit_msvc1900.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;ws2_32.lib;winmm.lib;comctl32.lib;gdi32.lib;imm32.lib;D:\anaconda2\Library\lib\libpng.lib;D:\anaconda2\Library\lib\z.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/shixun/frcode/face/build/Debug/Test4.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/shixun/frcode/face/build/Debug/Test4.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\opencv3.1.0\opencv\build\include;D:\opencv3.1.0\opencv\build\include\opencv;E:\shixun\face_recognition\dlib-19.13\dlib\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLIB_HAVE_SSE2;DLIB_JPEG_SUPPORT;DLIB_PNG_SUPPORT;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLIB_HAVE_SSE2;DLIB_JPEG_SUPPORT;DLIB_PNG_SUPPORT;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\opencv3.1.0\opencv\build\include;D:\opencv3.1.0\opencv\build\include\opencv;E:\shixun\face_recognition\dlib-19.13\dlib\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\opencv3.1.0\opencv\build\include;D:\opencv3.1.0\opencv\build\include\opencv;E:\shixun\face_recognition\dlib-19.13\dlib\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>dlib_build\Release\dlib19.13.0_release_64bit_msvc1900.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310.lib;ws2_32.lib;winmm.lib;comctl32.lib;gdi32.lib;imm32.lib;D:\anaconda2\Library\lib\libpng.lib;D:\anaconda2\Library\lib\z.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/shixun/frcode/face/build/Release/Test4.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/shixun/frcode/face/build/Release/Test4.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\opencv3.1.0\opencv\build\include;D:\opencv3.1.0\opencv\build\include\opencv;E:\shixun\face_recognition\dlib-19.13\dlib\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLIB_HAVE_SSE2;DLIB_JPEG_SUPPORT;DLIB_PNG_SUPPORT;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLIB_HAVE_SSE2;DLIB_JPEG_SUPPORT;DLIB_PNG_SUPPORT;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\opencv3.1.0\opencv\build\include;D:\opencv3.1.0\opencv\build\include\opencv;E:\shixun\face_recognition\dlib-19.13\dlib\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\opencv3.1.0\opencv\build\include;D:\opencv3.1.0\opencv\build\include\opencv;E:\shixun\face_recognition\dlib-19.13\dlib\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>dlib_build\MinSizeRel\dlib19.13.0_minsizerel_64bit_msvc1900.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;ws2_32.lib;winmm.lib;comctl32.lib;gdi32.lib;imm32.lib;D:\anaconda2\Library\lib\libpng.lib;D:\anaconda2\Library\lib\z.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/shixun/frcode/face/build/MinSizeRel/Test4.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/shixun/frcode/face/build/MinSizeRel/Test4.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\opencv3.1.0\opencv\build\include;D:\opencv3.1.0\opencv\build\include\opencv;E:\shixun\face_recognition\dlib-19.13\dlib\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLIB_HAVE_SSE2;DLIB_JPEG_SUPPORT;DLIB_PNG_SUPPORT;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLIB_HAVE_SSE2;DLIB_JPEG_SUPPORT;DLIB_PNG_SUPPORT;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\opencv3.1.0\opencv\build\include;D:\opencv3.1.0\opencv\build\include\opencv;E:\shixun\face_recognition\dlib-19.13\dlib\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\opencv3.1.0\opencv\build\include;D:\opencv3.1.0\opencv\build\include\opencv;E:\shixun\face_recognition\dlib-19.13\dlib\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>dlib_build\RelWithDebInfo\dlib19.13.0_relwithdebinfo_64bit_msvc1900.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;D:\opencv3.1.0\opencv\build\x64\vc14\lib\opencv_world310d.lib;ws2_32.lib;winmm.lib;comctl32.lib;gdi32.lib;imm32.lib;D:\anaconda2\Library\lib\libpng.lib;D:\anaconda2\Library\lib\z.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/shixun/frcode/face/build/RelWithDebInfo/Test4.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/shixun/frcode/face/build/RelWithDebInfo/Test4.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\shixun\frcode\face\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/shixun/frcode/face/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\shixun\face_recognition\cmake-3.11.4-win64-x64\bin\cmake.exe -HE:/shixun/frcode/face -BE:/shixun/frcode/face/build --check-stamp-file E:/shixun/frcode/face/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/shixun/frcode/face/CMakeLists.txt;E:\shixun\frcode\face\CMakeLists.txt;E:\shixun\frcode\face\build\CMakeFiles\3.11.4\CMakeSystem.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;E:\shixun\frcode\face\build\CMakeFiles\3.11.4\CMakeCCompiler.cmake;E:\shixun\frcode\face\build\CMakeFiles\3.11.4\CMakeCXXCompiler.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Platform\Windows.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeCInformation.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;E:\shixun\frcode\face\build\CMakeFiles\3.11.4\CMakeRCCompiler.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeRCInformation.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\opencv3.1.0\opencv\build\OpenCVConfig-version.cmake;D:\opencv3.1.0\opencv\build\OpenCVConfig.cmake;D:\opencv3.1.0\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;D:\opencv3.1.0\opencv\build\x64\vc14\lib\OpenCVModules.cmake;D:\opencv3.1.0\opencv\build\x64\vc14\lib\OpenCVModules-debug.cmake;D:\opencv3.1.0\opencv\build\x64\vc14\lib\OpenCVModules-release.cmake;E:\shixun\frcode\face\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\shixun\frcode\face\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/shixun/frcode/face/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\shixun\face_recognition\cmake-3.11.4-win64-x64\bin\cmake.exe -HE:/shixun/frcode/face -BE:/shixun/frcode/face/build --check-stamp-file E:/shixun/frcode/face/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/shixun/frcode/face/CMakeLists.txt;E:\shixun\frcode\face\CMakeLists.txt;E:\shixun\frcode\face\build\CMakeFiles\3.11.4\CMakeSystem.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;E:\shixun\frcode\face\build\CMakeFiles\3.11.4\CMakeCCompiler.cmake;E:\shixun\frcode\face\build\CMakeFiles\3.11.4\CMakeCXXCompiler.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Platform\Windows.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeCInformation.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;E:\shixun\frcode\face\build\CMakeFiles\3.11.4\CMakeRCCompiler.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeRCInformation.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\opencv3.1.0\opencv\build\OpenCVConfig-version.cmake;D:\opencv3.1.0\opencv\build\OpenCVConfig.cmake;D:\opencv3.1.0\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;D:\opencv3.1.0\opencv\build\x64\vc14\lib\OpenCVModules.cmake;D:\opencv3.1.0\opencv\build\x64\vc14\lib\OpenCVModules-debug.cmake;D:\opencv3.1.0\opencv\build\x64\vc14\lib\OpenCVModules-release.cmake;E:\shixun\frcode\face\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\shixun\frcode\face\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/shixun/frcode/face/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\shixun\face_recognition\cmake-3.11.4-win64-x64\bin\cmake.exe -HE:/shixun/frcode/face -BE:/shixun/frcode/face/build --check-stamp-file E:/shixun/frcode/face/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/shixun/frcode/face/CMakeLists.txt;E:\shixun\frcode\face\CMakeLists.txt;E:\shixun\frcode\face\build\CMakeFiles\3.11.4\CMakeSystem.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;E:\shixun\frcode\face\build\CMakeFiles\3.11.4\CMakeCCompiler.cmake;E:\shixun\frcode\face\build\CMakeFiles\3.11.4\CMakeCXXCompiler.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Platform\Windows.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeCInformation.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;E:\shixun\frcode\face\build\CMakeFiles\3.11.4\CMakeRCCompiler.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeRCInformation.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\opencv3.1.0\opencv\build\OpenCVConfig-version.cmake;D:\opencv3.1.0\opencv\build\OpenCVConfig.cmake;D:\opencv3.1.0\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;D:\opencv3.1.0\opencv\build\x64\vc14\lib\OpenCVModules.cmake;D:\opencv3.1.0\opencv\build\x64\vc14\lib\OpenCVModules-debug.cmake;D:\opencv3.1.0\opencv\build\x64\vc14\lib\OpenCVModules-release.cmake;E:\shixun\frcode\face\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\shixun\frcode\face\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/shixun/frcode/face/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\shixun\face_recognition\cmake-3.11.4-win64-x64\bin\cmake.exe -HE:/shixun/frcode/face -BE:/shixun/frcode/face/build --check-stamp-file E:/shixun/frcode/face/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/shixun/frcode/face/CMakeLists.txt;E:\shixun\frcode\face\CMakeLists.txt;E:\shixun\frcode\face\build\CMakeFiles\3.11.4\CMakeSystem.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;E:\shixun\frcode\face\build\CMakeFiles\3.11.4\CMakeCCompiler.cmake;E:\shixun\frcode\face\build\CMakeFiles\3.11.4\CMakeCXXCompiler.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Platform\Windows.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeCInformation.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;E:\shixun\frcode\face\build\CMakeFiles\3.11.4\CMakeRCCompiler.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeRCInformation.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeCXXInformation.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;E:\shixun\face_recognition\cmake-3.11.4-win64-x64\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;D:\opencv3.1.0\opencv\build\OpenCVConfig-version.cmake;D:\opencv3.1.0\opencv\build\OpenCVConfig.cmake;D:\opencv3.1.0\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;D:\opencv3.1.0\opencv\build\x64\vc14\lib\OpenCVModules.cmake;D:\opencv3.1.0\opencv\build\x64\vc14\lib\OpenCVModules-debug.cmake;D:\opencv3.1.0\opencv\build\x64\vc14\lib\OpenCVModules-release.cmake;E:\shixun\frcode\face\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\shixun\frcode\face\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="face.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\shixun\frcode\face\build\ZERO_CHECK.vcxproj">
+      <Project>{3A3B959B-5C1A-3064-812E-AC55EF1783FE}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
